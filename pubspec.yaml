@@ -1,0 +1,34 @@
+name: instant_skill_builder
+description: Flutter Instant Skill Builder App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  youtube_player_flutter: ^8.1.2
+  youtube_player_iframe: ^4.0.4
+  cached_network_image: ^3.2.3
+  shared_preferences: ^2.1.1
+  image_picker: ^1.1.1   # <-- Add this line
+  # Core dependencies
+  path_provider: ^2.0.14
+  animations: ^2.0.6
+  cupertino_icons: ^1.0.5
+  json_annotation: ^4.9.0
+  video_player: ^2.8.2
+  http: ^1.2.1   # ✅ http package added (latest stable version)
+
+  # Notifications
+  flutter_local_notifications: ^12.0.4  # ✅ Android / iOS / Linux supported
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
